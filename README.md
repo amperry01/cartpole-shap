@@ -6,7 +6,7 @@ The workflow: train a PPO agent (RLlib), extract PyTorch policy logits, then app
 
 ---
 
-## 🛠 Features
+## Features
 - **Training:** PPO agent via RLlib on CartPole-v1
 - **Interpretability:** SHAP DeepExplainer on the PyTorch policy network
 - **Logits Extraction:** Small wrapper to make RLlib policy SHAP-friendly
@@ -14,7 +14,7 @@ The workflow: train a PPO agent (RLlib), extract PyTorch policy logits, then app
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - `cartpole_ppo.py` — Trains and saves the PPO agent
 - `interpret_cp.py` — Loads the trained agent, runs SHAP, and saves plots
 - `requirements.txt` — Python dependencies
@@ -24,7 +24,7 @@ The workflow: train a PPO agent (RLlib), extract PyTorch policy logits, then app
 
 ---
 
-## 📦 How to Run
+## How to Run
 
 ```bash
 # (Optional) Create and activate a virtual environment
