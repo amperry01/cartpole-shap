@@ -10,7 +10,7 @@ This project trains a PPO agent using RLlib, extracts PyTorch policy logits, and
 
 ## Key Components
 - **Training:** PPO agent implemented using RLlib on CartPole-v1  
-- **Interpretability:** SHAP DeepExplainer applied to the PyTorch policy network  
+- **Explainability:** SHAP DeepExplainer applied to the PyTorch policy network  
 - **Logit Extraction:** Custom wrapper to enable SHAP compatibility with RLlib policies  
 - **Visualization:** Action-specific SHAP summary plots for feature importance analysis
 
