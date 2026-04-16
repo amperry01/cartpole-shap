@@ -5,6 +5,7 @@ A reinforcement learning explainability project that applies SHAP to analyze dec
 This project trains a PPO agent using RLlib, extracts PyTorch policy logits, and applies SHAP DeepExplainer to visualize how state features (cart position, velocity, pole angle, angular velocity) influence action selection.
 
 ![SHAP Summary Plot](images/shap_left.png)
+
 *SHAP summary plot showing feature impact on action selection*
 
 ## Key Components
